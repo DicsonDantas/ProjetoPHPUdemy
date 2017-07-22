@@ -57,7 +57,7 @@ private $dtcadastro;
 
 
      public function __toString(){
-     	return json_enconde(array(
+     	return json_encode(array(
         "idusuario"=>$this->getIdisuario(),
         "deslogin"=>$this->getDeslogin(),
         "dessenha"=>$this->getDessenha(),
